@@ -32,8 +32,9 @@ img {
 }
 
 #home {
-    background: url(../images/steak_top.jpg);
+    background: url(../images/steak_top.jpg), linear-gradient(#c9ffbf, #CCCCCC);
     min-height: 100vh;
+    background-blend-mode: luminosity;
 }
 
 
@@ -70,4 +71,47 @@ img {
 
 .main-nav li {
     margin-left: 32px;
+}
+
+.main-nav li a {
+    color: #fff;
+}
+
+.main-nav li a:hover {
+    color: #FF6666;
+}
+
+.home-content {
+    text-align: center;
+    margin-top: 10%;
+}
+
+
+
+.home-content p {
+    font-size: 2rem;
+    margin: 10px 0 42px;
+    text-shadow: 1px 1px 0 #000;
+    font-weight: bold;
+    color: #fff;
+}
+
+.page-title {
+    font-size: 4rem;
+    color: #fff;
+    text-shadow: 1px 1px 0 #000;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.button {
+    font-size: 1.375rem;
+    background: #66CCCC;
+    color: #fff;
+    border-radius: 5px;
+    padding: 18px 32px;
+}
+
+.button:hover {
+    background: #66CC99;
 }
