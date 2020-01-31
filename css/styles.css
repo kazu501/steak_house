@@ -147,9 +147,12 @@ section {
     width: 100%;
 }
 
-.features h2 {
-    padding: 50px 0;
+.features .title {
     text-align: center;
+    padding: 50px 0;
+}
+
+.features .title h2 {
     font-size: 2.25rem;
 }
 
@@ -181,9 +184,12 @@ section {
     padding: 24px 0 64px;
 }
 
-.menus h2 {
+.menus .title {
     padding: 50px 0;
     text-align: center;
+}
+
+.menus .title h2 {
     font-size: 2.25rem;
 }
 
@@ -195,7 +201,7 @@ section {
     background-color: #FFFAF0;
     padding: 45px 5px;
     border-radius: 10%;
-    /* border: 3px solid #555555; */
+    border: 3px solid #555555;
     box-shadow: 0 2px 7px rgba(83,78,61,0.3);;
 }
 
@@ -225,9 +231,12 @@ section {
     background-color: skyblue;
 }
 
-.contact h2 {
+.contact .title {
     padding: 50px 0;
     text-align: center;
+}
+
+.contact .title h2 {
     font-size: 2.25rem;
 }
 
