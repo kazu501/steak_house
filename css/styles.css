@@ -228,7 +228,7 @@ section {
 /* CONTACT PAGE  */
 
 .contact {
-    background-color: skyblue;
+    background-color: #FFFAFB;
 }
 
 .contact .title {
@@ -240,6 +240,50 @@ section {
     font-size: 2.25rem;
 }
 
+form {
+    text-align: center;
+}
+
+form div {
+    margin-bottom: 14px;
+}
+
+label {
+    font-size: 1.125rem;
+    margin-bottom: 10px;
+    display: block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="datetime-local"],
+textarea {
+    background: rgba(255, 255, 255, .5);
+    border: 1px #EEEEEE solid;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+    z-index: 10;
+    font-family: inherit;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    max-width: 240px;
+}
+
+textarea {
+    width: 100%;
+    max-width: 480px;
+    height: 6rem;
+}
+
+input[type="submit"] {
+    border: none;
+    cursor: pointer;
+    line-height: 1;
+}
 
 
 
@@ -270,7 +314,6 @@ section {
     .features .info {
         width: calc(50% - 32px);
     }
-
 
 
 
