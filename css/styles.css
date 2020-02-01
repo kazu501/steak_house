@@ -57,6 +57,9 @@ section {
 
 /* HEADER PAGE */
 
+#home .page-header a img {
+    position: fixed;
+}
 
 .page-header {
     display: flex;
@@ -70,7 +73,7 @@ section {
 
 .logo {
     width: 120px;
-    margin-top: 14px;
+    margin-top: 8px;
 }
 
 .main-nav {
@@ -229,6 +232,7 @@ section {
 
 .contact {
     background-color: #FFFAFB;
+    padding: 20px 0 20px;
 }
 
 .contact .title {
@@ -290,9 +294,38 @@ input[type="submit"] {
 
 
 
+
+
+
+
+
+/* FOOTER   */
+
+
+footer {
+    margin-top: 100px;
+    background: #432;
+    text-align: center;
+    padding: 26px 0;
+}
+
+footer {
+    color: #fff;
+    font-size: 0.875rem;
+}
+
+
+
+
+
+
+
+
+
 /* MOBILE  */
 
 @media (min-width: 900px) {
+
     .features .container {
         width: 900px;
         margin: 0 auto;
@@ -327,5 +360,39 @@ input[type="submit"] {
 
     .menus li {
         width: 250px;
+    }
+}
+
+
+
+
+
+@media (max-width: 479px) {
+
+    .logo {
+        width: 80px;
+        margin-top: 8px;
+    }
+    
+    .main-nav {
+        font-size: 1rem;
+    }
+
+    .page-title {
+        font-size: 2.5rem;
+        margin-top: 200px;
+    }
+
+    .home-content p {
+        font-size: 1.25rem;
+    }
+
+
+
+
+
+
+    .menus li {
+        margin-bottom: 30px;
     }
 }
